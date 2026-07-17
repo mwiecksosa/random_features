@@ -106,7 +106,7 @@ print(formatted_results)
 
 ### Structural time series model using rolling-window estimator
 
-We consider a two-dimensional structural time series model with cycles, trends, and a change-point. For $u\in [0,1]$, define $Z_u^{(1)}=\mu^{(1)}u+\alpha \mathbf{1}_{u \geq \tau}+\mathrm{cos}(2 \pi \beta^{(1)} u)$ and $Z_u^{(2)}=\mu^{(2)}u-\alpha \mathbf{1}_{u \geq \tau}+\mathrm{sin}(2 \pi \beta^{(2)} u)$. 
+We consider a two-dimensional structural time series model with cycles, trends, and a change-point. For $u\in [0,1]$, define $Z_u^{(1)}=\mu^{(1)}u+\alpha 1_{u \geq \tau}+\mathrm{cos}(2 \pi \beta^{(1)} u)$ and $Z_u^{(2)}=\mu^{(2)}u-\alpha 1_{u \geq \tau}+\mathrm{sin}(2 \pi \beta^{(2)} u)$. 
 
 
 For $t=1,\ldots,n$ and $j\in \{1,2\}$, we observe $$X_{t}^{(j)} = Z_{t/n}^{(j)} + \sigma^{(j)}  \epsilon_{t}^{(j)},$$ where $\epsilon_{t}^{(j)} \overset{\mathrm{iid}}{\sim} N(0,1)$.
