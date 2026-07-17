@@ -1,6 +1,6 @@
 ## Repository Contents
 
-- **`random_feature_estimators.py`** - Implements the time-average and rolling-window estimators
+- **`random_feature_estimators.py`** - Implements the random feature estimators
 - **`simulation_models.py`** - Contains the data generating processes for the experiments
 - **`experiment_configs.py`** - Contains the settings for each experiment 
 - **`experiments.py`** - Contains the experiments
