@@ -33,7 +33,7 @@ def load_estimates_from_run_dirs(parent_dir: Path) -> dict:
 
     Returns:
         Dict: {experiment_name: {n_key: {"theta_hats": array, "true_theta": [...], "param_names": [...]}}}
-        where n_key is "100", "1000", "10000" when by_n is present, or "default" for legacy.
+        where n_key is "100", "1000", "10000" when by_n is present, or "default".
     """
     # estimates[name][n_key] = { theta_hats: list, true_theta, param_names }
     estimates = {name: {} for name in EXPERIMENT_NAMES}
