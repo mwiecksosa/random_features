@@ -238,6 +238,10 @@ To run the tests:
 pytest run_tests.py -v
 ```
 
+## Links
+- [Estimation paper](https://mwiecksosa.github.io/estimation_random_features.pdf) 
+- [Identification paper](https://mwiecksosa.github.io/identification_random_features.pdf)
+
 
 
 
