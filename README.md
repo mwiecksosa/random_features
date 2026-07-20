@@ -240,7 +240,7 @@ pytest run_tests.py -v
 
 ## Papers
 - [Estimating dynamic models by matching random features](https://mwiecksosa.github.io/estimation_random_features.pdf) 
-- [Dynamic models with p parameters are identified by 2p+1 random features](https://mwiecksosa.github.io/identification_random_features.pdf)
+- [Dynamic models with p parameters are identified by 2p+1 random features](https://arxiv.org/pdf/2607.16035)
 
 
 
